@@ -26,11 +26,10 @@ This project manages staff data such as teachers and developers, including their
 
 ## 📂 Project Structure
 Staff-Management-System-Using-OOP-s/
-│
-├── main.py # Entry point of the program
-├── staff.py # Contains Staff, Teacher, Developer classes
-├── contract_mixin.py # Contains ContractMixin for contract handling
-└── README.md # Project documentation
+├── contract_mixin.py
+├── main.py
+├── README.md
+└── staff.py
 
 ---
 
@@ -38,6 +37,7 @@ Staff-Management-System-Using-OOP-s/
 1. **Clone the repository**
 ```bash
 git clone https://github.com/TahirH-dev/Staff-Management-System-Using-OOP-s.git
+
 ```
 2. **Navigate into the folder
 ```
