@@ -1,42 +1,66 @@
-# 📋 Staff Management System (OOP in Python)
+# Staff Management System Using OOP
 
-A simple **Object-Oriented Programming** based Staff Management System built in Python.  
-It allows managing employees, including **Teachers** and **Developers**, with features like salaries, contracts, and inheritance structure.
+A simple **Python project** demonstrating **Object-Oriented Programming (OOP)** concepts such as:
+- **Inheritance**
+- **Multiple Inheritance**
+- **Mixins**
+- **Properties & Setters**
+- **Class Methods**
+- **Encapsulation**
+
+This project manages staff members like **Teachers** and **Developers**, and supports **contract-based employees**.
 
 ---
 
-## 🚀 Features
-- Add and manage **Employees** (Teachers, Developers, Contract Teachers).
-- Use of **Inheritance**, **Mixins**, **Property & Setter**.
-- Displays salary, age, contract duration, and more.
-- Demonstrates **OOP concepts**:
-  - Classes & Objects
-  - Inheritance
-  - Method Overriding
-  - Encapsulation
-  - Mixins
-  - Classmethods
-  - Properties & Setters
+## 📌 Features
+- Add Teachers & Developers with details like:
+  - Name
+  - Age
+  - Salary
+- Handle **contract-based employees** with contract duration.
+- Calculate **contract end year** automatically.
+- Demonstrates **OOP principles** in Python.
+
+---
+
+## 🛠 OOP Concepts Covered
+1. **Inheritance**
+2. **Multiple Inheritance** (ContractMixin + Teacher)
+3. **Encapsulation** (private attributes)
+4. **Getters & Setters** (with `@property`)
+5. **Class Methods** (`@classmethod` for creating objects)
+6. **Mixins** (adding extra functionality)
 
 ---
 
 ## 📂 Project Structure
-Staff-Management-System-Using-OOP-s/
+Staff-Management-System-Using-OOP/
 │
-├── staff.py # Main classes and logic
-├── main.py # Entry point to run the program
+├── main.py # Main program file
 └── README.md # Project documentation
 
 ---
 
-## 🛠️ Technologies Used
-- **Python 3**
-- Object-Oriented Programming (OOP)
-
----
-
-## 📦 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/TahirH-dev/Staff-Management-System-Using-OOP-s.git
+## 🚀 How to Run
+1. **Clone the repository**
+```bash
+git clone https://github.com/TahirH-dev/Staff-Management-System-Using-OOP-s.git
+```
+## Example Output
+```
+---Teacher Details---
+Name: Qumbar
+Age: 17
+Salary: $15000
+Subject: Math & Physics
+Contract Years: 5
+Annual Salary: $180000
+Contract End Year: 2030
+---Developer Details---
+Name: Tahir
+Age: 18
+Salary: $25000
+Annual Salary: $300000
+Programming Language: Python
+```
 
