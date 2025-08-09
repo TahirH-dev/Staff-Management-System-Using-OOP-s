@@ -39,15 +39,15 @@ Staff-Management-System-Using-OOP-s/
 ```bash
 git clone https://github.com/TahirH-dev/Staff-Management-System-Using-OOP-s.git
 ```
-2. ##Navigate into the folder
+2. **Navigate into the folder
 ```
 cd Staff-Management-System-Using-OOP-s
 ```
-3. ##Run the program
+3. **Run the program
 ```
 python main.py
 ```
-📋 ##Requirements
+📋 ## Requirements
 Python 3.x installed
 A terminal or command prompt to run the code
 
