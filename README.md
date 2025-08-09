@@ -49,6 +49,7 @@ python main.py
 ```
 ## 📋 Requirements
 Python 3.x installed
+
 A terminal or command prompt to run the code
 
 ## Example Output
