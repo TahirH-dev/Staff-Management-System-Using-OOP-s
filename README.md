@@ -47,7 +47,7 @@ cd Staff-Management-System-Using-OOP-s
 ```
 python main.py
 ```
-📋 ## Requirements
+## 📋 Requirements
 Python 3.x installed
 A terminal or command prompt to run the code
 
