@@ -1,41 +1,42 @@
-# Staff Management System (OOP in Python)
+# 📋 Staff Management System (OOP in Python)
 
-A simple Python project demonstrating Object-Oriented Programming (OOP) concepts such as inheritance, multiple inheritance, encapsulation, and class methods.  
-The system manages different types of employees — Teachers, Developers, and Contract Teachers — with salary validation and contract duration features.
+A simple **Object-Oriented Programming** based Staff Management System built in Python.  
+It allows managing employees, including **Teachers** and **Developers**, with features like salaries, contracts, and inheritance structure.
 
-## Features
-- **Employee Base Class** with salary validation and annual salary calculation.
-- **Teacher Class** with subject specialization.
-- **Developer Class** with programming language specialization.
-- **Contract Teacher Class** combining teaching and contract management.
-- Uses **property decorators**, **class methods**, and **multiple inheritance**.
+---
 
-## Example Usage
-```python
-t1 = ContractTeacher.from_string("Qumbar-17-15000-Math & Physics-5")
-t1.show_details()
-print(f"Annual Salary: ${t1.annual_salary}")
-print(f"Contract End Year: {t1.contract_end_year(2025)}")
+## 🚀 Features
+- Add and manage **Employees** (Teachers, Developers, Contract Teachers).
+- Use of **Inheritance**, **Mixins**, **Property & Setter**.
+- Displays salary, age, contract duration, and more.
+- Demonstrates **OOP concepts**:
+  - Classes & Objects
+  - Inheritance
+  - Method Overriding
+  - Encapsulation
+  - Mixins
+  - Classmethods
+  - Properties & Setters
 
-d1 = Developer.from_string("Tahir-18-25000-Python")
-d1.show_details()
-```
-## OutPut
-```python
----Teacher Details---
-Name: Qumbar
-Age: 17
-Salary: $15000
-Subject: Math & Physics
-Contract Years: 5
-Annual Salary: $180000
-Contract End Year: 2030
----Developer Details---
-Name: Tahir
-Age: 18
-Salary: $25000
-Annual Salary: $300000
-Programming Language: Python
+---
 
+## 📂 Project Structure
+Staff-Management-System-Using-OOP-s/
+│
+├── staff.py # Main classes and logic
+├── main.py # Entry point to run the program
+└── README.md # Project documentation
 
+---
+
+## 🛠️ Technologies Used
+- **Python 3**
+- Object-Oriented Programming (OOP)
+
+---
+
+## 📦 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TahirH-dev/Staff-Management-System-Using-OOP-s.git
 
