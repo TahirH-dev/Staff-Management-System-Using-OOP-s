@@ -1,43 +1,40 @@
-# Staff Management System Using OOP
+# 📌 Staff Management System Using OOP
 
-A simple **Python project** demonstrating **Object-Oriented Programming (OOP)** concepts such as:
-- **Inheritance**
-- **Multiple Inheritance**
-- **Mixins**
-- **Properties & Setters**
-- **Class Methods**
-- **Encapsulation**
-
-This project manages staff members like **Teachers** and **Developers**, and supports **contract-based employees**.
+A simple Python project that demonstrates the power of **Object-Oriented Programming (OOP)** concepts such as classes, inheritance, encapsulation, mixins, and more.  
+This project manages staff data such as teachers and developers, including their names, salaries, and contract details.
 
 ---
 
-## 📌 Features
-- Add Teachers & Developers with details like:
-  - Name
-  - Age
-  - Salary
-- Handle **contract-based employees** with contract duration.
-- Calculate **contract end year** automatically.
-- Demonstrates **OOP principles** in Python.
+## 📜 Features
+- Add new staff members (Teachers, Developers)
+- Store and display staff details
+- Handle salaries and contract types
+- Uses **OOP principles**:
+  - Classes & Objects
+  - Inheritance
+  - Mixins
+  - Encapsulation (getter/setter using `@property`)
+  - Class methods and static methods
 
 ---
 
-## 🛠 OOP Concepts Covered
-1. **Inheritance**
-2. **Multiple Inheritance** (ContractMixin + Teacher)
-3. **Encapsulation** (private attributes)
-4. **Getters & Setters** (with `@property`)
-5. **Class Methods** (`@classmethod` for creating objects)
-6. **Mixins** (adding extra functionality)
+## 🛠 Technologies Used
+- **Python 3.x**
+- **Object-Oriented Programming**
 
 ---
 
 ## 📂 Project Structure
-Staff-Management-System-Using-OOP/
+Staff-Management-System-Using-OOP-s/
 │
-├── main.py # Main program file
+├── main.py # Entry point of the program
+├── staff.py # Contains Staff, Teacher, Developer classes
+├── contract_mixin.py # Contains ContractMixin for contract handling
 └── README.md # Project documentation
+
+yaml
+Copy
+Edit
 
 ---
 
@@ -45,7 +42,45 @@ Staff-Management-System-Using-OOP/
 1. **Clone the repository**
 ```bash
 git clone https://github.com/TahirH-dev/Staff-Management-System-Using-OOP-s.git
-```
+Navigate into the folder
+
+bash
+Copy
+Edit
+cd Staff-Management-System-Using-OOP-s
+Run the program
+
+bash
+Copy
+Edit
+python main.py
+📋 Requirements
+Python 3.x installed
+
+A terminal or command prompt to run the code
+
+💡 Example Output
+mathematica
+Copy
+Edit
+Enter staff type (Teacher/Developer): Teacher
+Enter name: John
+Enter salary: 50000
+Enter contract type (Permanent/Temporary): Permanent
+Staff member added successfully!
+
+Staff List:
+Name: John | Salary: 50000 | Contract: Permanent | Role: Teacher
+🧠 Learning Outcomes
+By creating this project, you will:
+
+Understand how to structure a Python project
+
+Learn OOP concepts in real-world applications
+
+Practice code reusability with inheritance and mixins
+
+Improve Git & GitHub usage skills
 ## Example Output
 ```
 ---Teacher Details---
