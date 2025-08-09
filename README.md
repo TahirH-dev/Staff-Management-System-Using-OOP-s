@@ -19,6 +19,7 @@ print(f"Contract End Year: {t1.contract_end_year(2025)}")
 
 d1 = Developer.from_string("Tahir-18-25000-Python")
 d1.show_details()
+```
 ## OutPut
 ```python
 ---Teacher Details---
