@@ -32,55 +32,25 @@ Staff-Management-System-Using-OOP-s/
 ├── contract_mixin.py # Contains ContractMixin for contract handling
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🚀 How to Run
 1. **Clone the repository**
 ```bash
 git clone https://github.com/TahirH-dev/Staff-Management-System-Using-OOP-s.git
-Navigate into the folder
-
-bash
-Copy
-Edit
+```
+2. ##Navigate into the folder
+```
 cd Staff-Management-System-Using-OOP-s
-Run the program
-
-bash
-Copy
-Edit
+```
+3. ##Run the program
+```
 python main.py
-📋 Requirements
+```
+📋 ##Requirements
 Python 3.x installed
-
 A terminal or command prompt to run the code
 
-💡 Example Output
-mathematica
-Copy
-Edit
-Enter staff type (Teacher/Developer): Teacher
-Enter name: John
-Enter salary: 50000
-Enter contract type (Permanent/Temporary): Permanent
-Staff member added successfully!
-
-Staff List:
-Name: John | Salary: 50000 | Contract: Permanent | Role: Teacher
-🧠 Learning Outcomes
-By creating this project, you will:
-
-Understand how to structure a Python project
-
-Learn OOP concepts in real-world applications
-
-Practice code reusability with inheritance and mixins
-
-Improve Git & GitHub usage skills
 ## Example Output
 ```
 ---Teacher Details---
